@@ -1,0 +1,9 @@
+---
+- mhost2
+  gather_facts: no
+  vars:
+
+  tasks:
+    - name: test file for my own git 
+      debug:
+
